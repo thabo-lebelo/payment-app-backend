@@ -26,7 +26,7 @@ public class DemoApplication implements CommandLineRunner  {
 
 		s3helper.listBuckets();
 
-		/*
+
 		WatchService watchService = FileSystems.getDefault().newWatchService();
 		Path path = Paths.get(props.getLocalDirectory());
 		log.info("Checking payment file at --> " + path.toString());
@@ -44,7 +44,7 @@ public class DemoApplication implements CommandLineRunner  {
 			}
 			key.reset();
 		}
-		*/
+
 	}
 
 }
